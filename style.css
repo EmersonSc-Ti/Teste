@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+}
+
+body {
+    background-image: url(img/black-and-grey-abstract-background-with-polygonal-pattern-template-for-your-banner-and-presentation-modern-design-illustration-vector.jpg);
+}
+
+section,
+footer {
+    padding: 54px 0;
+}
+
+h3 {
+    font-size: 50px;
+}
+
+p {
+    color: black;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+
+.btn {
+    background-color: red;
+    color: #ffff;
+    padding: 15px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.btn:hover {
+    background-color: black;
+    text-transform: 0.1s;
+}
+
+@keyframes animate-outline {
+    from {
+        outline: 0px solid red;
+    }
+
+    to {
+        outline: 15px solid rebeccapurple;
+    }
+}
+
+header {
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul a {
+    color: #ffff;
+    margin: 0 15px;
+    text-transform: uppercase;
+    font-size: 14px;
+    display: block;
+}
+
+nav ul a:hover {
+    text-transform: inherit;
+    transition: 0.3s;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+}
+
+.banner .banner-text {
+    margin: 150px;
+    text-align: center;
+    padding: 0 90px;
+}
+
+.banner .banner-text h1 {
+    font-size: 96px;
+    color: #ffff;
+}
+
+.banner .banner-text p {
+    font-size: 20px;
+    color: #ffff;
+    font-weight: lighter;
+    margin: 18px 0;
+}
